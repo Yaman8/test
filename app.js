@@ -51,7 +51,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const body = `From: ${name}\nEmail: ${email}\n\nMessage: ${message}`
 
     // Create mailto link
-    const mailtoLink = `mailto:spikeystona@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+    const mailtoLink = `mailto:yamansubedi@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 
     // Open default mail application
     window.location.href = mailtoLink
